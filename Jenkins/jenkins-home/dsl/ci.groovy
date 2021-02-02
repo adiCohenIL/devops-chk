@@ -14,7 +14,6 @@ pipelineJob('ci') {
         git {
           remote {
             url('https://github.com/adiCohenIL/test.git')
-            //credentials('cwtservice-github-ssh')
           }
           branch('*/main')
         }

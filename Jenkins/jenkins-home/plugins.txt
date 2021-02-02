@@ -17,14 +17,17 @@ git-server:1.9
 pipeline-github-lib:1.0
 groovy:2.2
 job-dsl:1.74 
+junit:1.28
 matrix-auth:2.4.2
 matrix-project:1.14
 plain-credentials:1.7
 scm-api:2.6.4
 script-security:1.75 
 ssh-credentials:1.17.4
+ssh-slaves:1.30.0
 ssh:2.6.1
 structs:1.20
+token-macro:2.8
 trilead-api:1.0.5 
 workflow-scm-step:2.11
 workflow-step-api:2.23

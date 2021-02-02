@@ -16,7 +16,7 @@ pipelineJob('ci') {
             url('https://github.com/adiCohenIL/test.git')
             //credentials('cwtservice-github-ssh')
           }
-          branch('*/master')
+          branch('*/main')
         }
         scriptPath('ci_jenkinsfile')
       }

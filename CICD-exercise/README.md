@@ -2,13 +2,12 @@
 
 ## Objectives
 
-1. [ ] 👪 Create a `Dockerfile` for the **Dummy** NodeJS service in this
+1. [ ] 🐳 Create a `Dockerfile` for the **Dummy** NodeJS service in this
   directory. (See `package.json` and `app.js`)
 1. [ ] 📥 Deploy "Dummy" service as a **Docker container**.
-1. [ ] ⚙️ Automate "Dummy" **build** process as a Docker image with any tool
-  or scripts you are familiar with.
-1. [ ] 🔄 Automate "Dummy" **deployment** with Ansible scripts or Jenkins job.
-1. [ ] 🔊 Bonus: Health-check monitoring for the "Dummy" service.
+1. [ ] ⚙️ Automate "Dummy" **build** process as a Docker image with Jenkins job.
+1. [ ] 🔄 Automate "Dummy" **deployment** with Ansible script or Jenkins job.
+1. [ ] 🤒 Bonus: Health-check monitoring for the "Dummy" service.
 
 ## Guide-Lines
 
@@ -27,9 +26,7 @@ Docker container and automate the build & deployment work-flow.
 ### Dummy Service Usage
 
 **Prerequisites**:
-
 - [ ] [GitHub](https://github.com) account
-- [ ] [Docker](https://www.docker.com/products/docker-desktop)
 
 **Setup**:
 
@@ -37,18 +34,10 @@ Docker container and automate the build & deployment work-flow.
 2. Install Node dependencies with: `npm install`
 3. Run service: `npm run start`
 
-The service has healt check:
+The service has health check:
 
 - `GET` http://localhost:3000/health - ⚠️ Randomly reports unhealthy!
 
 
-## Appendix A
-
-* [**GET**] http://localhost:3000/health
-  * Report on health of the service
-    * Response:
-      * When system is healthy, HTTP status 200 (OK) and header
-        `System-Health: true`.
-      * If error occurs, HTTP status 500 and header `System-Health: false`.
 
 ## Good Luck!

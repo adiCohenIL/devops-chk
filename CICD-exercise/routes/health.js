@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
     const dt = Date.now();
     if (dt % 5 === 0){
         res.set("System-Health", "false")
-            .status(200)
+            .status(500)
             .send(JSON.stringify(reponseDBDown))
             .end();
     }

@@ -10,6 +10,8 @@ In this repository you'll find Light-weight continuous deployment exercise.
 
 🛠 Jenkins is preconfigured on EC2 - available on  **http://EC2-instance-ip:8080**  
 
+🗂 Local docker registry is preconfigured, called qwilt-registry
+
 [exercise-1-ci-cd/](./CICD-exercise)  
 
 

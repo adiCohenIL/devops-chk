@@ -13,11 +13,11 @@ pipelineJob('ci') {
       scm {
         git {
           remote {
-            url('https://github.com/adiCohenIL/test.git')
+            url('https://github.com/adiCohenIL/devops-chk.git')
           }
-          branch('*/main')
+          branch('*/master')
         }
-        scriptPath('ci_jenkinsfile')
+        scriptPath('CICD-exercise/ci_jenkinsfile')
       }
     }
   }

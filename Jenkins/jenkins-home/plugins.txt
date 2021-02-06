@@ -17,7 +17,7 @@ git-server:1.9
 pipeline-github-lib:1.0
 groovy:2.2
 job-dsl:1.74 
-junit:1.28
+junit:1.37
 matrix-auth:2.4.2
 matrix-project:1.18
 plain-credentials:1.7
@@ -33,3 +33,4 @@ workflow-scm-step:2.11
 workflow-step-api:2.23
 workflow-aggregator:2.6
 workflow-multibranch:2.20
+Artifactory:3.10.4

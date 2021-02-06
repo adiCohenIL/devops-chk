@@ -14,7 +14,11 @@
 - We expect a running "Dummy" service, and a working automated deployment work-flow. 
 - Your work and configuration should be visible and you will be instructed to
   present them.
-- Use this repository as the workspace for everything you build and configure - **create your own branch to work on !** .
+- Use this repository as the workspace for everything you build and configure 
+
+   📌  **create your own branch to work on !** 
+
+   📌  **build groovy file** should be saved in /home/ubuntu/repos/devops-chk/CICD-exercise/ci_jenkinsfile
 
 ## Let's Begin
 

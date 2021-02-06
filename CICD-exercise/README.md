@@ -30,9 +30,8 @@ Docker container and automate the build & deployment work-flow.
 
 **Setup**:
 
-1. Clone repository: `git clone https://github.com/adiCohenIL/devops-chk.git`
-2. Install Node dependencies with: `npm install`
-3. Run service: `npm run start`
+1. Install Node dependencies with: `npm install`
+2. Run service: `npm run start`
 
 The service has health check:
 

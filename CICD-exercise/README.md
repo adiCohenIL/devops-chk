@@ -6,8 +6,8 @@
   directory. (See `package.json` and `app.js`)
 1. [ ] 📥 Deploy "Dummy" service as a **Docker container**.
 1. [ ] ⚙️  Automate "Dummy" **build** process as a Docker image with Jenkins job triggered when repository is updated.
-1. [ ] 🔄 Automate "Dummy" **deployment** with Ansible script or Jenkins job to minikube cluster.
-1. [ ] 🤒 k8s: Add Health-check monitoring for the "Dummy" service.
+1. [ ] 🔄 Automate "Dummy" **deployment** with Ansible script or Jenkins job .
+1. [ ] 🤒 Add Health-check monitoring for the "Dummy" service.
 
 ## Guide-Lines
 

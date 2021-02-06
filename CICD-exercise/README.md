@@ -4,10 +4,10 @@
 
 1. [ ] 🐳 Create a `Dockerfile` for the **Dummy** NodeJS service in this
   directory. (See `package.json` and `app.js`)
-1. [ ] 📥 Deploy "Dummy" service as a **Docker container**.
-1. [ ] ⚙️  Automate "Dummy" **build** process as a Docker image with Jenkins job triggered when repository is updated.
-1. [ ] 🔄 Automate "Dummy" **deployment** with Ansible script or Jenkins job .
-1. [ ] 🤒 Add Health-check monitoring for the "Dummy" service.
+2. [ ] 📥 Deploy "Dummy" service as a **Docker container**.
+3. [ ] ⚙️  Automate "Dummy" **build** process as a Docker image with Jenkins job triggered when repository is updated.
+4. [ ] 🔄 Automate "Dummy" **deployment** with Ansible script or Jenkins job .
+5. [ ] 🤒 Add Health-check monitoring for the "Dummy" service.
 
 ## Guide-Lines
 

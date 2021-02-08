@@ -23,8 +23,9 @@ ssh  -i <devops-candidate.pem full path> ubuntu@18.202.36.113
 
    **Make sure you create your own branch to work on !**
 
-3. This repostitory contains dummy nodeJS app (See `package.json` and `app.js`)
+3. This repostitory contains dummy nodeJS app in CICD-exercise directory (See `package.json` and `app.js`)
 #### Dummy Service setup
+* cd CICD-exercise
 * Install Node dependencies with: `npm install`
 * Run service: `npm run start`
 

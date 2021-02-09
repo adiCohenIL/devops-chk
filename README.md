@@ -35,12 +35,12 @@ ssh  -i <devops-candidate.pem full path> ubuntu@18.202.36.113
 
 4. Create a Dockerfile for the Dummy service for being able to run the service as a Docker container.
 5. Docker registry is available on EC2 , called **qwilt-registry**
-#### Get images in regisry
+#### Get images in registry
 
 ```sh
 curl -X GET http://qwilt-registry:5000/v2/_catalog
 ```
-#### Get tags of image in regisry
+#### Get tags of image in registry
 ```sh
 curl -X GET http://qwilt-registry:5000/v2/<image-name>/tags/list
 ```

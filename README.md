@@ -46,13 +46,13 @@ curl -X GET http://qwilt-registry:5000/v2/<image-name>/tags/list
 ```
 
 6. Jenkins is available on  **http://18.202.36.113:8080**  
-   Edit "Ci Cycle" job - job should create and upload summy service docker image to registry
+   Edit "Ci Cycle" job, job should create and upload Dummy service docker image to registry
    
    **Note: versioning of image is expected**
    
    **build groovy file should be saved in /home/ubuntu/repos/devops-chk/CICD-exercise/ci_jenkinsfile**
 7. Add Jenkins task to deploy dummy service container to EC2 machine ( get image from registry and run it) 
-8. Bonus:  add health check to your service (in the dockerfile)
+8. Bonus:  Add health check to your service (in the dockerfile)
    
 ## Good Luck
 

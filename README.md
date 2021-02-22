@@ -16,7 +16,7 @@ In this repository you'll find Light-weight continuous deployment exercise.
 1. You will do the exercise on EC2 machine , please download [devops-candidate.pem](./devops-candidate.pem) 
 and login to EC2 by:  
 ```sh
-ssh  -i <devops-candidate.pem full path> ubuntu@18.202.36.113
+ssh  -i <devops-candidate.pem full path> ubuntu@54.73.32.3
 ```
 
 2. Clone this repository https://github.com/adiCohenIL/devops-chk on EC2
@@ -45,7 +45,7 @@ curl -X GET http://qwilt-registry:5000/v2/_catalog
 curl -X GET http://qwilt-registry:5000/v2/<image-name>/tags/list
 ```
 
-6. Jenkins is available on  **http://18.202.36.113:8080**  
+6. Jenkins is available on  **http://54.73.32.3:8080**
    Edit "Ci Cycle" job, job should create and upload Dummy service docker image to registry
    
    **Note: versioning of image is expected**

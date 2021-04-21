@@ -16,7 +16,7 @@ In this repository you'll find Light-weight continuous deployment exercise.
 1. You will do the exercise on EC2 machine , please download [devops-candidate.pem](./devops-candidate.pem) 
 and login to EC2 by:  
 ```sh
-ssh  -i <devops-candidate.pem full path> ubuntu@54.73.32.3
+ssh  -i <devops-candidate.pem full path> ubuntu@54.75.84.188
 ```
 
 2. Clone this repository https://github.com/adiCohenIL/devops-chk on EC2

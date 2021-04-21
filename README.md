@@ -45,7 +45,7 @@ curl -X GET http://qwilt-registry:5000/v2/_catalog
 curl -X GET http://qwilt-registry:5000/v2/<image-name>/tags/list
 ```
 
-6. Jenkins is available on  **http://54.73.32.3:8080**
+6. Jenkins is available on  **http://54.75.84.188:8080**
    Edit "Ci Cycle" job, job should create and upload Dummy service docker image to registry
    
    **Note: versioning of image is expected**

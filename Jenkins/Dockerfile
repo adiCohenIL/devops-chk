@@ -1,7 +1,10 @@
-FROM jenkins/jenkins:2.263.3
+
+FROM jenkins/jenkins:lts
 
 # handle jenkins plugin
 ENV JEN_REF /usr/share/jenkins/ref
+ENV JENKINS_UC_DOWNLOAD 'http://ftp-nyc.osuosl.org/pub/jenkins'
+
 COPY jenkins-home/plugins.txt $JEN_REF/
 RUN \
   ATTEMPTS=3 \

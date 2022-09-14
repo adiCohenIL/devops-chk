@@ -1,5 +1,5 @@
 
-FROM jenkins/jenkins:2.368
+FROM jenkins/jenkins:2.334
 
 # handle jenkins plugin
 ENV JEN_REF /usr/share/jenkins/ref
